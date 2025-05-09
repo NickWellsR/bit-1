@@ -1,3 +1,160 @@
-body{
-    background-color: aqua;
+/*body*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdfdfd;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .custom-header {
+    background-color: #082400;
+  }
+
+  .custom-link {
+    color: #ffffff;
+    transition: color 0.3s, border-bottom 0.3s;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 4px;
+  }
+  
+  .custom-link:hover {
+    color: #f0c000; 
+    border-bottom: 2px solid #f0c000;
+    text-decoration: none;
+  }
+
+  .hero h1,
+  .hero p {
+    color: #ffffff;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+  }
+
+  .hero .container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: right;
+  }
+  
+  section img {
+    transition: transform 0.3s ease;
+  }
+  
+  section img:hover {
+    transform: scale(1.1);
 }
+
+/*Footer*/
+  footer a {
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  footer a:hover {
+    color: #f0c000;
+  }
+  
+  footer .mx-2 {
+    font-size: 1.25rem;
+  }
+  .custom-footer {
+    background-color: #082400;
+  }
+  
+  .custom-footer a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .custom-footer a:hover {
+    color: #f0c000; 
+    text-decoration: underline;
+  }
+  
+  /* ========== Media Queries ========== */
+  
+  /* Extra small */
+  @media (max-width: 575px) {
+    header .container,
+    .info-cards .row,
+    .categories .row {
+      flex-direction: column !important;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .categories .col-md-3,
+    .info-cards .col-md-6 {
+      margin-bottom: 2rem;
+    }
+  
+    .features {
+      flex-direction: column !important;
+    }
+  
+    .features img {
+      width: 100% !important;
+      margin-bottom: 1rem;
+    }
+  
+    .hero h1 {
+      font-size: 1.8rem;
+    }
+  
+    .hero p {
+      font-size: 1rem;
+    }
+  }
+  
+  /* Small devices */
+  @media (min-width: 575px) and (max-width: 767px) {
+    .hero h1 {
+      font-size: 2rem;
+    }
+  
+    .hero p {
+      font-size: 1.1rem;
+    }
+  
+    .features img {
+      width: 100% !important;
+      margin-bottom: 1rem;
+    }
+  }
+  
+  /* Medium devices */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+  
+    .hero p {
+      font-size: 1.2rem;
+    }
+  
+    .features img {
+      width: 48% !important;
+    }
+  }
+  
+  /* Large devices  */
+  @media (min-width: 992px) {
+    .hero h1 {
+      font-size: 3rem;
+    }
+  
+    .hero p {
+      font-size: 1.3rem;
+    }
+  
+    .features img {
+      width: 48%;
+    }
+  
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+  }
