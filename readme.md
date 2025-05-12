@@ -4,7 +4,7 @@ Welcome to the Wild-Life Bikes website — a responsive, multi-page site built f
 
 ## 🚴‍♂️ Live Demo
 
-[(If hosted, insert link here)](https://nickwellsr.github.io/bit-1/)
+[(Wild-Life Bikes Website)](https://nickwellsr.github.io/bit-1/)
 
 ---
 
@@ -48,9 +48,9 @@ wild-life-bikes/
 ## 💻 Technologies Used
 
 - HTML5
-- CSS3
-- JavaScript (Vanilla)
-- Bootstrap 5.3
+- CSS
+- JavaScript 
+- Bootstrap 
 - Bootstrap Icons
 
 ---
