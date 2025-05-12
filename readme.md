@@ -41,7 +41,7 @@ wild-life-bikes/
 │ └── styles.css
 ├── js/
 │ └── script.js
-├── images/
+├── Assets/
 │ └── (all images used in the site)
 └── README.md
 
